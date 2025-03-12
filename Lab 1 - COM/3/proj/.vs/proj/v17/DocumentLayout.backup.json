@@ -1,0 +1,82 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\STUDIA PG\\KSR\\Lab 1 - COM\\3\\proj\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{969FA101-BF9D-40C9-9013-A82557648B9F}|proj\\proj.vcxproj|C:\\STUDIA PG\\KSR\\Lab 1 - COM\\3\\klient2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{969FA101-BF9D-40C9-9013-A82557648B9F}|proj\\proj.vcxproj|C:\\STUDIA PG\\KSR\\Lab 1 - COM\\3\\klient2.exe.manifest||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{969FA101-BF9D-40C9-9013-A82557648B9F}|proj\\proj.vcxproj|C:\\STUDIA PG\\KSR\\Lab 1 - COM\\3\\guid2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{969FA101-BF9D-40C9-9013-A82557648B9F}|proj\\proj.vcxproj|C:\\STUDIA PG\\KSR\\Lab 1 - COM\\3\\IKlasa2.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "klient2.exe.manifest",
+              "DocumentMoniker": "C:\\STUDIA PG\\KSR\\Lab 1 - COM\\3\\klient2.exe.manifest",
+              "RelativeDocumentMoniker": "..\\klient2.exe.manifest",
+              "ToolTip": "C:\\STUDIA PG\\KSR\\Lab 1 - COM\\3\\klient2.exe.manifest",
+              "RelativeToolTip": "..\\klient2.exe.manifest",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001203|",
+              "WhenOpened": "2025-03-10T21:50:59.896Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IKlasa2.h",
+              "DocumentMoniker": "C:\\STUDIA PG\\KSR\\Lab 1 - COM\\3\\IKlasa2.h",
+              "RelativeDocumentMoniker": "..\\IKlasa2.h",
+              "ToolTip": "C:\\STUDIA PG\\KSR\\Lab 1 - COM\\3\\IKlasa2.h",
+              "RelativeToolTip": "..\\IKlasa2.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAABjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-03-10T21:50:06.399Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "klient2.cpp",
+              "DocumentMoniker": "C:\\STUDIA PG\\KSR\\Lab 1 - COM\\3\\klient2.cpp",
+              "RelativeDocumentMoniker": "..\\klient2.cpp",
+              "ToolTip": "C:\\STUDIA PG\\KSR\\Lab 1 - COM\\3\\klient2.cpp",
+              "RelativeToolTip": "..\\klient2.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-03-10T21:47:58.288Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "guid2.cpp",
+              "DocumentMoniker": "C:\\STUDIA PG\\KSR\\Lab 1 - COM\\3\\guid2.cpp",
+              "RelativeDocumentMoniker": "..\\guid2.cpp",
+              "ToolTip": "C:\\STUDIA PG\\KSR\\Lab 1 - COM\\3\\guid2.cpp",
+              "RelativeToolTip": "..\\guid2.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAABjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-03-10T21:47:56.647Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

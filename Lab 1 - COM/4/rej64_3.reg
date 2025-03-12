@@ -1,0 +1,9 @@
+REGEDIT4
+
+[HKEY_CURRENT_USER\Software\Classes\Wow6432Node\CLSID\{D41B2BB6-8973-4DBD-8A92-B1A81D3F4429}]
+@="Klasa3"
+
+[HKEY_CURRENT_USER\Software\Classes\Wow6432Node\CLSID\{D41B2BB6-8973-4DBD-8A92-B1A81D3F4429}\InProcServer32]
+@="C:\\STUDIA PG\\KSR\\Lab 1 - COM\\4\\proj\\Debug\\proj.dll"
+"ThreadingModel"="Both"
+
