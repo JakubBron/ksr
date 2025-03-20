@@ -1,0 +1,17 @@
+C:\STUDIA PG\KSR\Lab 3 - COM\7\WmpAxLib\bin\Debug\WmpAxLib.dll
+C:\STUDIA PG\KSR\Lab 3 - COM\7\WmpAxLib\bin\Debug\WmpAxLib.pdb
+C:\STUDIA PG\KSR\Lab 3 - COM\7\WmpAxLib\bin\Debug\Interop.WMPLib.dll
+C:\STUDIA PG\KSR\Lab 3 - COM\7\WmpAxLib\bin\Debug\AxInterop.WMPLib.dll
+C:\STUDIA PG\KSR\Lab 3 - COM\7\WmpAxLib\obj\Debug\WmpAxLib.csproj.AssemblyReference.cache
+C:\STUDIA PG\KSR\Lab 3 - COM\7\WmpAxLib\obj\Debug\Interop.WMPLib.dll
+C:\STUDIA PG\KSR\Lab 3 - COM\7\WmpAxLib\obj\Debug\AxInterop.WMPLib.dll
+C:\STUDIA PG\KSR\Lab 3 - COM\7\WmpAxLib\obj\Debug\WmpAxLib.csproj.ResolveComReference.cache
+C:\STUDIA PG\KSR\Lab 3 - COM\7\WmpAxLib\obj\Debug\WmpAxLib.WmpAxControl.resources
+C:\STUDIA PG\KSR\Lab 3 - COM\7\WmpAxLib\obj\Debug\WmpAxLib.csproj.GenerateResource.cache
+C:\STUDIA PG\KSR\Lab 3 - COM\7\WmpAxLib\obj\Debug\WmpAxLib.csproj.CoreCompileInputs.cache
+C:\STUDIA PG\KSR\Lab 3 - COM\7\WmpAxLib\obj\Debug\WmpAxLib.dll
+C:\STUDIA PG\KSR\Lab 3 - COM\7\WmpAxLib\obj\Debug\WmpAxLib.pdb
+C:\STUDIA PG\KSR\Lab 3 - COM\7\WmpAxLib\obj\Debug\Interop.MediaPlayer.dll
+C:\STUDIA PG\KSR\Lab 3 - COM\7\WmpAxLib\obj\Debug\Interop.WMLSS.dll
+C:\STUDIA PG\KSR\Lab 3 - COM\7\WmpAxLib\obj\Debug\Interop.WMPDXMLib.dll
+C:\STUDIA PG\KSR\Lab 3 - COM\7\WmpAxLib\obj\Debug\Interop.WMPLauncher.dll
