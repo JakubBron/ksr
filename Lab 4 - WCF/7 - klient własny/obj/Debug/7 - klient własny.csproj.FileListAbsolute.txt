@@ -1,7 +1,0 @@
-C:\STUDIA PG\KSR\Lab 4 - WCF\7 - klient własny\bin\Debug\7 - klient własny.exe.config
-C:\STUDIA PG\KSR\Lab 4 - WCF\7 - klient własny\bin\Debug\7 - klient własny.exe
-C:\STUDIA PG\KSR\Lab 4 - WCF\7 - klient własny\bin\Debug\7 - klient własny.pdb
-C:\STUDIA PG\KSR\Lab 4 - WCF\7 - klient własny\obj\Debug\7 - klient własny.csproj.AssemblyReference.cache
-C:\STUDIA PG\KSR\Lab 4 - WCF\7 - klient własny\obj\Debug\7 - klient własny.csproj.CoreCompileInputs.cache
-C:\STUDIA PG\KSR\Lab 4 - WCF\7 - klient własny\obj\Debug\7 - klient własny.exe
-C:\STUDIA PG\KSR\Lab 4 - WCF\7 - klient własny\obj\Debug\7 - klient własny.pdb
