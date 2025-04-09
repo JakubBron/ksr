@@ -51,7 +51,7 @@ namespace _2
         public string Test(string arg)
         {
             Console.WriteLine("INFO: (server.Test() ) Received arg: " + arg);
-            return "Wololo! " + arg;
+            return "Serwer pracuje i przetwarza argument = " + arg;
         }
 
         // zadanie 7
@@ -99,7 +99,7 @@ namespace _2
 
             // otwieramy serwer - można do niego dzwonić i coś od niego chcieć
             serviceHost.Open();
-            Console.WriteLine("INFO: Server started. Press any key to stop server.");
+            Console.WriteLine("INFO: Server started. Press Ctrl+C to stop server.");
             Console.ReadLine();
             serviceHost.Close();
         }

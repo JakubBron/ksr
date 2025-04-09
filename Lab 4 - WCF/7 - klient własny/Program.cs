@@ -21,7 +21,7 @@ namespace _7___klient_własny
             }
             catch (FaultException<Wyjatek7> exception)
             {
-                Console.WriteLine(exception.Detail.opis);
+                Console.WriteLine("WARN: Exception caught: " + exception.Detail.opis);
             }
         }
     }

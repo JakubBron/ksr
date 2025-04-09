@@ -17,13 +17,14 @@ namespace KSR_WCF1
     {
         [OperationContract]
         string Test(string arg);
-        [OperationContract]
+
         // zadanie 5:
+        [OperationContract]
         [FaultContract(typeof(Wyjatek))]
         void RzucWyjatek(bool czy_rzucic);
 
         [OperationContract]
-        string OtoMagia(string arg);
+        string OtoMagia(string magia);
     }
 
     [DataContract]
@@ -33,7 +34,7 @@ namespace KSR_WCF1
         public string opis;
 
         [DataMember]
-        public string magia;
+        public string magia { get; set; }
     }
 }
 
@@ -50,7 +51,7 @@ namespace _1
             /* Tu można oddziaływać na linii klient (ten prog) <-> serwer */
 
             
-            Console.WriteLine(client.Test("Hello, World!"));
+            Console.WriteLine(client.Test("treść testowa"));
 
             // zadanie 5:
             try
@@ -66,8 +67,8 @@ namespace _1
                 Console.WriteLine("Result of client.OtoMagia = " + result);
             }
 
-
             (client as IDisposable).Dispose();
+            Console.ReadLine();
             fact.Close();
         }
     }
