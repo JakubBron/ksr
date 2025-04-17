@@ -1,0 +1,7 @@
+C:\STUDIA PG\KSR\Lab 6 - WCF\3 i 4\bin\3.dll.config
+C:\STUDIA PG\KSR\Lab 6 - WCF\3 i 4\bin\3.dll
+C:\STUDIA PG\KSR\Lab 6 - WCF\3 i 4\bin\3.pdb
+C:\STUDIA PG\KSR\Lab 6 - WCF\3 i 4\obj\Debug\3.csproj.AssemblyReference.cache
+C:\STUDIA PG\KSR\Lab 6 - WCF\3 i 4\obj\Debug\3.csproj.CoreCompileInputs.cache
+C:\STUDIA PG\KSR\Lab 6 - WCF\3 i 4\obj\Debug\3.dll
+C:\STUDIA PG\KSR\Lab 6 - WCF\3 i 4\obj\Debug\3.pdb

@@ -1,0 +1,7 @@
+C:\STUDIA PG\KSR\Lab 6 - WCF\2\bin\Debug\2.exe.config
+C:\STUDIA PG\KSR\Lab 6 - WCF\2\bin\Debug\2.exe
+C:\STUDIA PG\KSR\Lab 6 - WCF\2\bin\Debug\2.pdb
+C:\STUDIA PG\KSR\Lab 6 - WCF\2\obj\Debug\2 - klient.csproj.AssemblyReference.cache
+C:\STUDIA PG\KSR\Lab 6 - WCF\2\obj\Debug\2 - klient.csproj.CoreCompileInputs.cache
+C:\STUDIA PG\KSR\Lab 6 - WCF\2\obj\Debug\2.exe
+C:\STUDIA PG\KSR\Lab 6 - WCF\2\obj\Debug\2.pdb

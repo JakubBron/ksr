@@ -1,0 +1,7 @@
+C:\STUDIA PG\KSR\Lab 6 - WCF\6 - serwis 1\bin\Debug\6 - serwis 1.exe.config
+C:\STUDIA PG\KSR\Lab 6 - WCF\6 - serwis 1\bin\Debug\6 - serwis 1.exe
+C:\STUDIA PG\KSR\Lab 6 - WCF\6 - serwis 1\bin\Debug\6 - serwis 1.pdb
+C:\STUDIA PG\KSR\Lab 6 - WCF\6 - serwis 1\obj\Debug\6 - serwis 1.csproj.AssemblyReference.cache
+C:\STUDIA PG\KSR\Lab 6 - WCF\6 - serwis 1\obj\Debug\6 - serwis 1.csproj.CoreCompileInputs.cache
+C:\STUDIA PG\KSR\Lab 6 - WCF\6 - serwis 1\obj\Debug\6 - serwis 1.exe
+C:\STUDIA PG\KSR\Lab 6 - WCF\6 - serwis 1\obj\Debug\6 - serwis 1.pdb

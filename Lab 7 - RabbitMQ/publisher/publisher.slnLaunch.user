@@ -1,0 +1,22 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "..\\subscriber1\\subscriber1.csproj",
+        "Action": "Start",
+        "DebugTarget": "subscriber1"
+      },
+      {
+        "Path": "..\\subscriber2\\subscriber2.csproj",
+        "Action": "Start",
+        "DebugTarget": "subscriber2"
+      },
+      {
+        "Path": "publisher.csproj",
+        "Action": "Start",
+        "DebugTarget": "publisher"
+      }
+    ]
+  }
+]
