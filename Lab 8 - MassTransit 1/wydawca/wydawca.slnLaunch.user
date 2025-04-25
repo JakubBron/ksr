@@ -1,0 +1,27 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "..\\odbiorca A\\odbiorca A.csproj",
+        "Action": "Start",
+        "DebugTarget": "odbiorca A"
+      },
+      {
+        "Path": "..\\odbiorca B\\odbiorca B.csproj",
+        "Action": "Start",
+        "DebugTarget": "odbiorca B"
+      },
+      {
+        "Path": "..\\odbiorca C\\odbiorca C.csproj",
+        "Action": "Start",
+        "DebugTarget": "odbiorca C"
+      },
+      {
+        "Path": "wydawca.csproj",
+        "Action": "Start",
+        "DebugTarget": "wydawca"
+      }
+    ]
+  }
+]
