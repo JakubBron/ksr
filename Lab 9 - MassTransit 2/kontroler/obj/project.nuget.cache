@@ -1,0 +1,29 @@
+{
+  "version": 2,
+  "dgSpecHash": "8bpLEKGbVyY=",
+  "success": true,
+  "projectFilePath": "C:\\STUDIA PG\\KSR\\Lab 9 - MassTransit 2\\kontroler\\kontroler.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Kuba_loc\\.nuget\\packages\\masstransit\\8.4.0\\masstransit.8.4.0.nupkg.sha512",
+    "C:\\Users\\Kuba_loc\\.nuget\\packages\\masstransit.abstractions\\8.4.0\\masstransit.abstractions.8.4.0.nupkg.sha512",
+    "C:\\Users\\Kuba_loc\\.nuget\\packages\\masstransit.newtonsoft\\8.4.0\\masstransit.newtonsoft.8.4.0.nupkg.sha512",
+    "C:\\Users\\Kuba_loc\\.nuget\\packages\\masstransit.rabbitmq\\8.4.0\\masstransit.rabbitmq.8.4.0.nupkg.sha512",
+    "C:\\Users\\Kuba_loc\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\8.0.0\\microsoft.extensions.configuration.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\Kuba_loc\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\Kuba_loc\\.nuget\\packages\\microsoft.extensions.diagnostics.abstractions\\8.0.0\\microsoft.extensions.diagnostics.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\Kuba_loc\\.nuget\\packages\\microsoft.extensions.diagnostics.healthchecks\\8.0.0\\microsoft.extensions.diagnostics.healthchecks.8.0.0.nupkg.sha512",
+    "C:\\Users\\Kuba_loc\\.nuget\\packages\\microsoft.extensions.diagnostics.healthchecks.abstractions\\8.0.0\\microsoft.extensions.diagnostics.healthchecks.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\Kuba_loc\\.nuget\\packages\\microsoft.extensions.fileproviders.abstractions\\8.0.0\\microsoft.extensions.fileproviders.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\Kuba_loc\\.nuget\\packages\\microsoft.extensions.hosting.abstractions\\8.0.0\\microsoft.extensions.hosting.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\Kuba_loc\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.0\\microsoft.extensions.logging.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\Kuba_loc\\.nuget\\packages\\microsoft.extensions.options\\8.0.0\\microsoft.extensions.options.8.0.0.nupkg.sha512",
+    "C:\\Users\\Kuba_loc\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0\\microsoft.extensions.primitives.8.0.0.nupkg.sha512",
+    "C:\\Users\\Kuba_loc\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
+    "C:\\Users\\Kuba_loc\\.nuget\\packages\\newtonsoft.json.bson\\1.0.3\\newtonsoft.json.bson.1.0.3.nupkg.sha512",
+    "C:\\Users\\Kuba_loc\\.nuget\\packages\\rabbitmq.client\\7.1.2\\rabbitmq.client.7.1.2.nupkg.sha512",
+    "C:\\Users\\Kuba_loc\\.nuget\\packages\\system.diagnostics.diagnosticsource\\8.0.0\\system.diagnostics.diagnosticsource.8.0.0.nupkg.sha512",
+    "C:\\Users\\Kuba_loc\\.nuget\\packages\\system.io.pipelines\\8.0.0\\system.io.pipelines.8.0.0.nupkg.sha512",
+    "C:\\Users\\Kuba_loc\\.nuget\\packages\\system.threading.ratelimiting\\8.0.0\\system.threading.ratelimiting.8.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

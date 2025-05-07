@@ -1,0 +1,147 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\STUDIA PG\\KSR\\Lab 9 - MassTransit 2\\wydawca\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{08BBFE82-812D-4DF2-9EE8-6A5DD3F7E034}|wydawca.csproj|c:\\studia pg\\ksr\\lab 9 - masstransit 2\\wydawca\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08BBFE82-812D-4DF2-9EE8-6A5DD3F7E034}|wydawca.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF241D31-0BCF-4BFF-BCFC-0C3C40F7407E}|..\\odbiorcaA\\odbiorcaA.csproj|c:\\studia pg\\ksr\\lab 9 - masstransit 2\\odbiorcaa\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93C0EE03-D554-417E-AA32-44ACFB055F0F}|..\\Common\\Common.csproj|c:\\studia pg\\ksr\\lab 9 - masstransit 2\\common\\crypto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3851F32D-F963-4151-9C65-6A7C129D89BD}|..\\odbiorca B\\odbiorca B.csproj|c:\\studia pg\\ksr\\lab 9 - masstransit 2\\odbiorca b\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3F9822B-E1C7-4C93-A840-A138E1A8708F}|..\\kontroler\\kontroler.csproj|c:\\studia pg\\ksr\\lab 9 - masstransit 2\\kontroler\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93C0EE03-D554-417E-AA32-44ACFB055F0F}|..\\Common\\Common.csproj|c:\\studia pg\\ksr\\lab 9 - masstransit 2\\common\\messages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3F9822B-E1C7-4C93-A840-A138E1A8708F}|..\\kontroler\\kontroler.csproj|c:\\studia pg\\ksr\\lab 9 - masstransit 2\\kontroler\\kontroler.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 1735,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Crypto.cs",
+              "DocumentMoniker": "C:\\STUDIA PG\\KSR\\Lab 9 - MassTransit 2\\Common\\Crypto.cs",
+              "RelativeDocumentMoniker": "..\\Common\\Crypto.cs",
+              "ToolTip": "C:\\STUDIA PG\\KSR\\Lab 9 - MassTransit 2\\Common\\Crypto.cs",
+              "RelativeToolTip": "..\\Common\\Crypto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-07T21:29:42.259Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Messages.cs",
+              "DocumentMoniker": "C:\\STUDIA PG\\KSR\\Lab 9 - MassTransit 2\\Common\\Messages.cs",
+              "RelativeDocumentMoniker": "..\\Common\\Messages.cs",
+              "ToolTip": "C:\\STUDIA PG\\KSR\\Lab 9 - MassTransit 2\\Common\\Messages.cs",
+              "RelativeToolTip": "..\\Common\\Messages.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-07T21:27:04.447Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\STUDIA PG\\KSR\\Lab 9 - MassTransit 2\\odbiorca B\\Program.cs",
+              "RelativeDocumentMoniker": "..\\odbiorca B\\Program.cs",
+              "ToolTip": "C:\\STUDIA PG\\KSR\\Lab 9 - MassTransit 2\\odbiorca B\\Program.cs",
+              "RelativeToolTip": "..\\odbiorca B\\Program.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACMAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-07T21:09:08.525Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\STUDIA PG\\KSR\\Lab 9 - MassTransit 2\\odbiorcaA\\Program.cs",
+              "RelativeDocumentMoniker": "..\\odbiorcaA\\Program.cs",
+              "ToolTip": "C:\\STUDIA PG\\KSR\\Lab 9 - MassTransit 2\\odbiorcaA\\Program.cs",
+              "RelativeToolTip": "..\\odbiorcaA\\Program.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACQAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-07T21:03:52.134Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\STUDIA PG\\KSR\\Lab 9 - MassTransit 2\\wydawca\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\STUDIA PG\\KSR\\Lab 9 - MassTransit 2\\wydawca\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAvwDsAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-07T20:58:43.909Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "kontroler",
+              "DocumentMoniker": "C:\\STUDIA PG\\KSR\\Lab 9 - MassTransit 2\\kontroler\\kontroler.csproj",
+              "RelativeDocumentMoniker": "..\\kontroler\\kontroler.csproj",
+              "ToolTip": "C:\\STUDIA PG\\KSR\\Lab 9 - MassTransit 2\\kontroler\\kontroler.csproj",
+              "RelativeToolTip": "..\\kontroler\\kontroler.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-07T20:57:45.502Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\STUDIA PG\\KSR\\Lab 9 - MassTransit 2\\kontroler\\Program.cs",
+              "RelativeDocumentMoniker": "..\\kontroler\\Program.cs",
+              "ToolTip": "C:\\STUDIA PG\\KSR\\Lab 9 - MassTransit 2\\kontroler\\Program.cs",
+              "RelativeToolTip": "..\\kontroler\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-07T20:57:25.507Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 1735,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

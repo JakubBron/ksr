@@ -1,0 +1,67 @@
+Programy powinny wykorzystywaæ w³asny deweloperski
+serwer za³o¿ony wczeœniej na https://www.cloudamqp.com/
+Ka¿dy proces powinien na pocz¹tku siê
+przedstawiæ, czyli wypisaæ na konsolê kim
+jest, np. "nadawca", "odbiorca 2" itp.
+W celu poprawienia czytelnoœci, aby odró¿niæ
+komendu wypisywane przez program a treœæ
+odebranych/wys³anych wiadomoœci, mo¿na u¿yæ
+klasy ConsoleCol (dostêpna na eNauczanie).
+Utworzenie szyny korzystaj¹cej z RabbitMq:
+
+var bus = Bus.Factory.CreateUsingRabbitMq(sbc => {
+    var host = sbc.Host(new Uri("rabbitmq://<host>/<virtual host>"), 
+        h => { h.Username("login");
+            h.Password("password"); });
+
+});
+
+W, K, A, B to osobne procesy
+
+1. wydawca wiadomoœci (W)				10%
+- publikuje co sekundê wiadomoœci typu Publ
+  z kolejnymi numerami (1, 2, 3, ...)
+- reaguje na polecenia kontrolera
+2. kontroler generatora	(K)				15%
+- po naciœniêciu klawisza s wysy³a polecenie uruchomienia
+  generatora (polecenie Ustaw { dziala = true } )
+- po naciœniêciu klawisza t wysy³a polecenie zatrzymania
+  generatora (polecenie Ustaw { dziala = false } )
+3. dwoje abonentów (A i B)				20%
+- odbieraj¹ wiadomoœci od W i wypisuj¹ na konsolê
+  ich zawartoœæ
+- A odpowiada na wiadomoœci o numerach podzielnych przez 2
+  wiadomoœciami typu OdpA z polem kto = "abonent A"
+- B odpowiada na wiadomoœci o numerach podzielnych przez 3
+  wiadomoœciami typu OdpB z polem kto = "abonent B"
+- W wypisuje na konsolê treœæ odpowiedzi
+4. wyj¹tki						25%
+- obs³uga odpowiedzi w wydawcy (W)
+  rzuca wyj¹tek z prawdopodobienstwem 1/3 
+- abonenci s¹ informowani, gdy obs³uga ich odpowiedzi
+  wywo³a³a wyj¹tek (wypisuj¹ informacjê o tym fakcie
+  na konsolê)
+- wydawca w przypadku wyj¹tku próbuje ponownie obs³u¿yæ
+  wiadomoœæ (maksymalnie 5 razy)
+5. obserwatory wiadomoœci				20%
+- wydawca po naciœniêciu klawisza s wypisuje
+  statystyki odebranych wiadomoœci:
+  - liczba prób obs³u¿enia komunikatów ka¿dego typu
+  - liczba pomyœlnie obs³u¿onych komunikatów ka¿dego typu
+  - liczba pomyœlnie obs³u¿onych komunikatów ka¿dego typu
+  - liczba opublikowanych komunikatów typu
+6. szyfrowanie						10%
+- komunikacja miêdzy K i W jest szyfrowana
+  wspó³dzielonym kluczem (numer indeksu powtórzony
+  dostatecznie wiele razy);
+- wektor inicjalizacyjny powinien byæ inny
+  w ka¿dej wiadomoœci
+
+Uwagi:
+Po zakoñczeniu zadania proszê przes³aæ wszystkie pliki kodu, konfiguracyjne (.cs, .config)
+oraz pliki wszytkich projektów i solution (pliki .csproj i .sln).
+Proszê równie¿ do³¹czyæ skompilowane pliki: exe oraz dll.
+Podstaw¹ oceny s¹ równie¿ screeny z dzia³aj¹cych programów.
+Proszê opró¿niæ foldery Debug i Release zostawiaj¹c jedynie pliki .exe i .dll.
+Proszê równie¿ usun¹æ folder packages oraz ukryty folder .vs.
+Pliki nale¿y spakowaæ do archiwum ZIP i wys³aæ na platformie e-nauczanie.

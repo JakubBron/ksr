@@ -1,0 +1,32 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "wydawca.csproj",
+        "Action": "StartWithoutDebugging",
+        "DebugTarget": "wydawca"
+      },
+      {
+        "Path": "..\\Common\\Wspolne.csproj",
+        "Action": "StartWithoutDebugging",
+        "DebugTarget": "Common"
+      },
+      {
+        "Path": "..\\kontroler\\kontroler.csproj",
+        "Action": "StartWithoutDebugging",
+        "DebugTarget": "kontroler"
+      },
+      {
+        "Path": "..\\odbiorcaA\\odbiorcaA.csproj",
+        "Action": "StartWithoutDebugging",
+        "DebugTarget": "odbiorcaA"
+      },
+      {
+        "Path": "..\\odbiorca B\\odbiorca B.csproj",
+        "Action": "StartWithoutDebugging",
+        "DebugTarget": "odbiorca B"
+      }
+    ]
+  }
+]
