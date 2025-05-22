@@ -4,6 +4,6 @@
     <DebuggerFlavor>ProjectDebugger</DebuggerFlavor>
   </PropertyGroup>
   <PropertyGroup>
-    <ActiveDebugProfile>Common</ActiveDebugProfile>
+    <ActiveDebugProfile>Wspolne</ActiveDebugProfile>
   </PropertyGroup>
 </Project>

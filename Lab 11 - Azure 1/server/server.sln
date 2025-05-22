@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35825.156 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{CC5FD16D-436D-48AD-A40C-5A424C6E3E79}") = "MOJE", "MOJE.ccproj", "{8484BCFF-0D5E-4016-A5D5-A8C09A955889}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCFServiceWebRole1", "WCFServiceWebRole1\WCFServiceWebRole1.csproj", "{CDEEEF88-17D1-4F2B-B334-51E67C6C22A8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8484BCFF-0D5E-4016-A5D5-A8C09A955889}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8484BCFF-0D5E-4016-A5D5-A8C09A955889}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8484BCFF-0D5E-4016-A5D5-A8C09A955889}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8484BCFF-0D5E-4016-A5D5-A8C09A955889}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CDEEEF88-17D1-4F2B-B334-51E67C6C22A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDEEEF88-17D1-4F2B-B334-51E67C6C22A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDEEEF88-17D1-4F2B-B334-51E67C6C22A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDEEEF88-17D1-4F2B-B334-51E67C6C22A8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EE5FD292-50D9-484E-AB2E-2843AB7A8A9A}
+	EndGlobalSection
+EndGlobal

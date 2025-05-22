@@ -3,14 +3,14 @@
     "Name": "New Profile",
     "Projects": [
       {
+        "Path": "..\\Common\\Wspolne.csproj",
+        "Action": "StartWithoutDebugging",
+        "DebugTarget": "Wspolne"
+      },
+      {
         "Path": "wydawca.csproj",
         "Action": "StartWithoutDebugging",
         "DebugTarget": "wydawca"
-      },
-      {
-        "Path": "..\\Common\\Wspolne.csproj",
-        "Action": "StartWithoutDebugging",
-        "DebugTarget": "Common"
       },
       {
         "Path": "..\\kontroler\\kontroler.csproj",

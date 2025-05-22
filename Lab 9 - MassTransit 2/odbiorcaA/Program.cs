@@ -5,7 +5,7 @@ using TypyWiadomosci;
 var bus = Bus.Factory.CreateUsingRabbitMq(cfg =>
 {
     cfg.Host("amqps://xkcenflk:9r0uII7CLJfh_zJf76oj1ZvlCI6HHskw@hawk.rmq.cloudamqp.com/xkcenflk");
-    cfg.ReceiveEndpoint("a_recv_queue", conf =>
+    cfg.ReceiveEndpoint("a_odebrane", conf =>
     {
         conf.Handler<Publ>(ctx =>
         {
@@ -14,12 +14,12 @@ var bus = Bus.Factory.CreateUsingRabbitMq(cfg =>
                 return Task.CompletedTask;
             }
 
-            ctx.RespondAsync(new OdpA("A"));
+            ctx.RespondAsync(new OdpA("abonent A"));
             Console.WriteLine($"[OdbiorcaA] Dostal: {ctx.Message}");
             return Task.CompletedTask;
         });
     });
-    cfg.ReceiveEndpoint("a_recv_queue_error", conf =>
+    cfg.ReceiveEndpoint("a_odebrane_error", conf =>
     {
         conf.Handler<Fault>(ctx =>
         {

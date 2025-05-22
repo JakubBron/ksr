@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MassTransit.Newtonsoft" Version="8.4.1" />
+    <PackageReference Include="MassTransit.Quartz" Version="8.4.1" />
+    <PackageReference Include="MassTransit.RabbitMQ" Version="8.4.1" />
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="9.0.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Klient_A\Klient_A.csproj" />
+    <ProjectReference Include="..\MessageTypesDefinition\MessageTypesDefinition.csproj" />
+    <ProjectReference Include="..\Sklep\Sklep.csproj" />
+  </ItemGroup>
+
+</Project>

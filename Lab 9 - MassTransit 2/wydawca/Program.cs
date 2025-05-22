@@ -11,7 +11,7 @@ var controllerBus = Bus.Factory.CreateUsingRabbitMq(cfg =>
     cfg.UseEncryptedSerializer(new AesCryptoStreamProvider(
         new Crypto("19320819320819320819320819320819"), "1932081932081932"));
     cfg.Host("amqps://xkcenflk:9r0uII7CLJfh_zJf76oj1ZvlCI6HHskw@hawk.rmq.cloudamqp.com/xkcenflk");
-    cfg.ReceiveEndpoint("control_queue", conf =>
+    cfg.ReceiveEndpoint("kolejka_sterowania", conf =>
     {
         conf.Handler<Ustaw>(ctx =>
         {
@@ -24,7 +24,7 @@ var controllerBus = Bus.Factory.CreateUsingRabbitMq(cfg =>
                 Console.WriteLine($"\tProby B: {stats[1]}");
                 Console.WriteLine($"\tOK A: {stats[2]}");
                 Console.WriteLine($"\tOK B: {stats[3]}");
-                Console.WriteLine($"\tWyslano: {stats[4]}");
+                Console.WriteLine($"\tTotal SEND: {stats[4]}");
             }
             return Task.CompletedTask;
         });
@@ -33,14 +33,14 @@ var controllerBus = Bus.Factory.CreateUsingRabbitMq(cfg =>
 var bus = Bus.Factory.CreateUsingRabbitMq(cfg =>
 {
     cfg.Host("amqps://xkcenflk:9r0uII7CLJfh_zJf76oj1ZvlCI6HHskw@hawk.rmq.cloudamqp.com/xkcenflk");
-    cfg.ReceiveEndpoint("a_queue", conf =>
+    cfg.ReceiveEndpoint("kolejka_dla_a", conf =>
     {
         conf.UseMessageRetry(r => r.Immediate(5));
         conf.Handler<OdpA>(ctx =>
         {
             stats[0]++;
             Console.WriteLine($"[wydawca] Odebral (A): {ctx.Message}");
-            if (Random.Shared.Next(0, 3) == 0)
+            if (Random.Shared.Next(0, 2) == 0)
             {
                 throw new Exception("Oto wyjatek A");
             }
@@ -48,14 +48,14 @@ var bus = Bus.Factory.CreateUsingRabbitMq(cfg =>
             return Task.CompletedTask;
         });
     });
-    cfg.ReceiveEndpoint("b_queue", conf =>
+    cfg.ReceiveEndpoint("kolejka_dla_b", conf =>
     {
         conf.UseMessageRetry(r => r.Immediate(5));
         conf.Handler<OdpB>(ctx =>
         {
             stats[1]++;
             Console.WriteLine($"[wydawca] Odebral (B): {ctx.Message}");
-            if (Random.Shared.Next(0, 3) == 0)
+            if (Random.Shared.Next(0, 2) == 0)
             {
                 throw new Exception("Oto wyjatek B");
             }

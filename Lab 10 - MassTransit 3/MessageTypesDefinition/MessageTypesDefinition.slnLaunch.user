@@ -1,0 +1,32 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "..\\Sklep\\Sklep.csproj",
+        "Action": "Start",
+        "DebugTarget": "Sklep"
+      },
+      {
+        "Path": "..\\Magazyn\\Magazyn.csproj",
+        "Action": "Start",
+        "DebugTarget": "Magazyn"
+      },
+      {
+        "Path": "..\\Klient_A\\Klient_A.csproj",
+        "Action": "Start",
+        "DebugTarget": "Klient_A"
+      },
+      {
+        "Path": "..\\Klient_B\\Klient_B.csproj",
+        "Action": "Start",
+        "DebugTarget": "Klient_B"
+      },
+      {
+        "Path": "MessageTypesDefinition.csproj",
+        "Action": "Start",
+        "DebugTarget": "MessageTypesDefinition"
+      }
+    ]
+  }
+]

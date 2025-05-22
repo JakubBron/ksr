@@ -4,21 +4,21 @@ using TypyWiadomosci;
 var bus = Bus.Factory.CreateUsingRabbitMq(cfg =>
 {
     cfg.Host("amqps://xkcenflk:9r0uII7CLJfh_zJf76oj1ZvlCI6HHskw@hawk.rmq.cloudamqp.com/xkcenflk");
-    cfg.ReceiveEndpoint("b_recv_queue", conf =>
+    cfg.ReceiveEndpoint("b_odebrane", conf =>
     {
         conf.Handler<Publ>(ctx =>
         {
-            if (ctx.Message.Numer % 2 != 0)
+            if (ctx.Message.Numer % 3 != 0)
             {
                 return Task.CompletedTask;
             }
 
-            ctx.RespondAsync(new OdpB("B"));
+            ctx.RespondAsync(new OdpB("abonent B"));
             Console.WriteLine($"[OdbiorcaB] Dostał: {ctx.Message}");
             return Task.CompletedTask;
         });
     });
-    cfg.ReceiveEndpoint("b_recv_queue_error", conf =>
+    cfg.ReceiveEndpoint("b_odebrane_error", conf =>
     {
         conf.Handler<Fault>(ctx =>
         {
